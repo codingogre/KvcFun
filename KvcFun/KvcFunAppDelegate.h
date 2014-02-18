@@ -14,7 +14,7 @@
 }
 
 @property (assign) IBOutlet NSWindow *window;
-@property (readwrite, assign) int fido;
+@property (readwrite) int fido;
 - (IBAction)incrementFido:(id)sender;
 
 
